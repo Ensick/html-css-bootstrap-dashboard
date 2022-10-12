@@ -10,8 +10,21 @@
     cursor: pointer;
 }
 
+.ms-height-calc{
+    height: calc(100vh - 100px);
+}
 
+ul {
+    padding-inline-start: 0px;
+}
 
+li{
+    list-style: none;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
 /* HEADER */
 
 header{
@@ -22,8 +35,12 @@ nav{
     height: 100px;
 }
 
-.ms-logo{
+.ms-mobile-logo{
     width: 50px;
+}
+
+.ms-logo{
+    width: 150px;
 }
 
 .fa-bell{
@@ -38,4 +55,16 @@ nav{
 .input-group-text {
     background-color: #E5E5E5;
 }
+
+/* MAIN */
+
+
+/* ASIDE */
+
+.ms-aside{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+    color: white;
+}
+
 

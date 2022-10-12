@@ -14,29 +14,66 @@
 
         <header class="px-3">
             <nav class="row align-items-center">
-                <div class="col-2 text-end ms-pointer">
-                    <img class="ms-logo" src="./assets/img/mobile-logo.png" alt="logo">
+
+                <div class="col-2 text-end ms-pointer px-2">
+                    <img class="ms-mobile-logo d-lg-none" src="./assets/img/mobile-logo.png" alt="logo">
+                    <img class="ms-logo d-none d-lg-block" src="./assets/img/logo.svg" alt="logo">
                 </div>
 
-                <div class="col-8">
+                <div class="col-8 px-2">
                     <div class="input-group">
                         <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="text" class="form-control" placeholder="Prova a cercare lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                 </div>
 
-                <div class="col-2">
-                    <div class="d-flex align-items-center">
-                        <i class="fa-solid fa-bars d-none d-lg-block me-3 ms-pointer"></i>
-                        <i class="fa-solid fa-circle-question d-none d-lg-block me-3 ms-pointer"></i>
-                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block me-3 ms-pointer"></i>
+                <div class="col-2 text-end px-2">
+                    <div class="d-flex justify-content-sm-between align-items-center">
+                        <i class="fa-solid fa-bars d-none d-lg-block ms-pointer"></i>
+                        <i class="fa-solid fa-circle-question d-none d-lg-block ms-pointer"></i>
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block ms-pointer"></i>
                         <i class="fa-solid fa-bell ms-pointer"></i>
                     </div>
                 </div>
+
             </nav>
         </header>
 
-        
+        <main class="ms-height-calc">
+
+            <div class="row h-100">
+
+                <div class="ms-aside col-1 d-flex flex-column justify-content-between align-items-center p-2">
+
+                    <div>
+
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-house my-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-chart-simple my-2"></i>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-signal my-2"></i>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-gear my-2"></i>
+                    </div>
+
+                </div>
+    
+                <div class="col-11">
+    
+                </div>
+
+            </div>
+            
+        </main>
 
 
 
