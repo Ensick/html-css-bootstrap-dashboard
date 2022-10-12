@@ -44,7 +44,7 @@ nav{
 }
 
 .ms-logo{
-    width: 150px;
+    width: 100%;
 }
 
 .fa-bell{
@@ -82,4 +82,7 @@ nav{
     background-color: #155CBA!important;
 }
 
+.ms-avatar{
+    width: 30px;
+}
 
