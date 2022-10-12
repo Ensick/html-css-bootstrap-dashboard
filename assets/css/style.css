@@ -25,6 +25,10 @@ li{
 .row {
     --bs-gutter-x: 0;
 }
+
+.ms-color-white{
+    color: white;
+}
 /* HEADER */
 
 header{
@@ -65,6 +69,17 @@ nav{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
     color: white;
+}
+
+/* COL-11 */
+
+.ms-bg-light-blue{
+    background-color: #1A73E8;
+}
+
+.text-bg-primary {
+    color: #fff!important;
+    background-color: #155CBA!important;
 }
 
 
