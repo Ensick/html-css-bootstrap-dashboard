@@ -41,7 +41,7 @@ nav{
 }
 
 .ms-mobile-logo{
-    width: 50px;
+    width: 120%;
 }
 
 .ms-logo{
@@ -85,5 +85,9 @@ nav{
 
 .ms-avatar{
     width: 30px;
+}
+
+.ms-bg-white{
+    background-color: white;
 }
 
