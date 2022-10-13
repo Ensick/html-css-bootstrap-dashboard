@@ -32,7 +32,17 @@
                         <i class="fa-solid fa-bars d-none d-lg-block ms-pointer"></i>
                         <i class="fa-solid fa-circle-question d-none d-lg-block ms-pointer"></i>
                         <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block ms-pointer"></i>
-                        <i class="fa-solid fa-bell ms-pointer"></i>
+
+                        <div class="btn-group">
+                            <span type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell ms-pointer"></i>
+                            </span>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><button class="dropdown-item" type="button">Action</button></li>
+                              <li><button class="dropdown-item" type="button">Another action</button></li>
+                              <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                          </div>
                     </div>
                 </div>
 
@@ -109,9 +119,22 @@
 
                             <div class="col-lg-8 p-2">
 
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        ...
+                                    </div>
+                                </div>
+
                                 <div class="card">
-                                    <div class="card-header">
-                                      Prossime Classi
+                                    <div class="card-header d-flex justify-content-between">
+                                      <span>Prossime Classi</span>
+                                      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
                                     </div>
                                     <div class="card-body">
                                         <table class="table table-hover">
@@ -348,16 +371,6 @@
             </div>
             
         </main>
-
-
-
-
-
-
-
-
-
-
 
     </div>
 
